@@ -1,0 +1,50 @@
+/* ベース設定 */
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+}
+
+/* タイトル */
+h1 {
+  color: #005bac;
+  font-size: 32px;
+  border-bottom: 2px solid #005bac;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* リスト（詳細情報） */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* ナビゲーションリンク */
+div a {
+  text-decoration: none;
+  color: white;
+  background-color: #0074d9;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+div a:hover {
+  background-color: #005bac;
+}
+
+/* リンクの間に縦線が不要なら以下を削除 */
+div {
+  margin-top: 20px;
+}
