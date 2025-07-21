@@ -24,7 +24,7 @@ button {
     border: 1px yellowgreen solid;
     border-radius: 10px;
     max-width: 600px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .sort {
