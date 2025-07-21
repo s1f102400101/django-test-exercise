@@ -8,7 +8,7 @@ p {
 }
 
 form {
-    padding-left: 35%;
+    text-align: center;
 }
 
 button {
@@ -23,7 +23,8 @@ button {
 .text {
     border: 1px yellowgreen solid;
     border-radius: 10px;
-    margin: 0 20%;
+    max-width: 600px;
+    text-align: center;
 }
 
 .sort {
